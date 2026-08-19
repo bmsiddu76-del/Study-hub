@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>BCA StudyHub — Study Material, Roadmap & Careers</title>
+<meta name="description" content="A complete BCA study hub: semester-wise notes, your own YouTube lecture links, course roadmap, and career roadmap." />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="brand">
+    <span class="brand-mark" aria-hidden="true"></span>
+    BCA STUDYHUB
+  </div>
+  <nav class="site-nav" aria-label="Primary">
+    <a href="#materials">Study Material</a>
+    <a href="#roadmap">Course Roadmap</a>
+    <a href="#career">Career Roadmap</a>
+  </nav>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <span class="hero-tag">BCA · 3-Year Program · 6 Semesters</span>
+    <h1>Everything for your <span>BCA journey</span>, on one sheet.</h1>
+    <p>
+      Semester-wise study notes written to actually be read, a place to drop in
+      your own YouTube lecture links per subject, and a clear roadmap from
+      Semester&nbsp;1 to your first tech job.
+    </p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="#materials">Browse Study Material</a>
+      <a class="btn btn-ghost" href="#roadmap">View Roadmap</a>
+    </div>
+    <div class="hero-stats">
+      <div><strong>6</strong><span>Semesters mapped</span></div>
+      <div><strong>25+</strong><span>Subjects covered</span></div>
+      <div><strong>∞</strong><span>Video links you add</span></div>
+    </div>
+  </section>
+
+  <!-- STUDY MATERIALS -->
+  <section id="materials">
+    <div class="section-head">
+      <div>
+        <span class="eyebrow">Study Material</span>
+        <h2>Semester-wise subjects</h2>
+      </div>
+    </div>
+
+    <div id="semester-tabs" role="tablist" aria-label="Select semester"></div>
+    <p id="semester-theme"></p>
+    <div id="subject-grid"></div>
+  </section>
+
+  <!-- COURSE ROADMAP -->
+  <section id="roadmap">
+    <div class="section-head">
+      <div>
+        <span class="eyebrow">Course Roadmap</span>
+        <h2>How the six semesters connect</h2>
+      </div>
+    </div>
+    <div id="course-roadmap"></div>
+  </section>
+
+  <!-- CAREER ROADMAP -->
+  <section id="career">
+    <div class="section-head">
+      <div>
+        <span class="eyebrow">Career Roadmap</span>
+        <h2>Where a BCA can take you</h2>
+      </div>
+    </div>
+    <div id="career-tracks"></div>
+
+    <div class="cert-panel">
+      <h4>Certifications worth adding along the way</h4>
+      <ul id="cert-list"></ul>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  BCA STUDYHUB · Built for self-study · <span id="year"></span> · Video links are stored only in your own browser
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
